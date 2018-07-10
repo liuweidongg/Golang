@@ -35,7 +35,7 @@ func main() {
 
 	case a >= 0.0:
 		fmt.Println("a>=0")
-		fallthrough
+		fallthrough // continue check next case
 	case a >= 0.1:
 		fmt.Println("a >= 0.1")
 
