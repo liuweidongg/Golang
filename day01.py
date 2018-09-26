@@ -18,6 +18,7 @@ time_ = int(raw_input(">>"))# change int,raw_input returns string.
 min_ = time_ // 60 # get mins
 times = time_ % 60 # get times
 print(min_,times)'''
+'''
 # EP:2
 x,y,a,b,c = 1,1,0,0,0
 part1 =( 3 + 4 * x) / 5
@@ -26,5 +27,8 @@ part3 = 9 * ((4/x) + (9+x)/y)
 
 res = part1 - part2 + part3
 print(res)
+'''
 
+a,b = eval(raw_input('>>'))
+print(a,b)
 
