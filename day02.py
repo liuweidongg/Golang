@@ -41,8 +41,69 @@ aksfjbkj
 # chr()
 # from __future__ import print_function
 # loading  future package in print function
+'''
 res = ''
 for i in 'maomaochong@163.com':
     res = res +  chr(ord(i) + 1)
     # print(res,end='')
-print(res)
+print(res)'''
+
+
+'''
+import hashlib
+str1 = 'this is a test.'
+h1 = hashlib.md5()
+h1.update(str1.encode(encoding = 'utf-8'))
+print('MD5', h1.hexdigest())
+'''
+
+
+'''
+import cv2  # 计算机视觉中的库 opencv
+import hashlib # MD5 的hash 库
+# 读取图片IMREAD_GRAYSCALE，以灰度打开
+img = cv2.imread('/Users/huwang/Documents/other/photo/noePiece.jpg',cv2.IMREAD_GRAYSCALE)
+print(img.shape) # 图片的形状
+#显示转换为标准一维python bytearray
+bytearray1 = bytearray(img)  # 将图片转换成字节型
+# print(bytearray1)
+# md5化
+h1 = hashlib.md5()
+h1.update(bytearray1)
+print('MD5加密之后为：', h1.hexdigest())
+'''
+'''
+a = "He said:\"Johon's program is easy to read\""  #z正则表达式中常用转义字符\
+print(a)
+'''
+'''
+str()   change typr to string
+int()   ....        to int
+float   ....        to float 
+bool()  ....           bool
+
+'''
+
+'''
+string:
+    +   string +
+    ''.join()
+    ".join()" str class function
+    join(iter):: 
+        example:tuple(),list[],dict{key:value}
+    print(str(8)+'mins'+','+str(20)+'seconds')
+
+EP2:
+    1.将 “Welcome” “to” "Python" 拼接
+    2.将int型 100 与 “joker is a bad man” 拼接
+    3.从控制台读取字符串输入一个名字返回夸奖此human
+
+    answer:
+        'welcome' + 'to' + 'Python'
+        str(100) + 'joker is a good man'
+        name = input('>>')  #return string
+        print(name + 'ni zhen shi yi ge xiao tian cai')
+'''
+
+
+
