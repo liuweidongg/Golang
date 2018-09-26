@@ -5,7 +5,7 @@
 # max :: 1.single args 2. iter 
 # round(x,y) :: 
 # use tsinghua yuan install pip
-# pip install xxx -i https://pypi.tuna.tsinghua.xxxxm, 
+# pip install xxx -i https://pypi.tuna.tsinghua.edu.cn/simple 
 # math.log :: e  
 # math.log(10,10)
 # math.sin()  input huduzhi
@@ -39,6 +39,7 @@ aksfjbkj
 # print(type(a))
 # ord() input string, return ascii value
 # chr()
+
 # from __future__ import print_function
 # loading  future package in print function
 '''
@@ -104,6 +105,93 @@ EP2:
         name = input('>>')  #return string
         print(name + 'ni zhen shi yi ge xiao tian cai')
 '''
+
+# is check "id"
+
+# 'a' * 5 = 'aaaaa'
+
+'''
+if condition:
+    pass
+else:
+    pass
+if condition:
+    pass
+elif condition:
+    pass
+else:
+    pass
+'''
+'''
+if 'a' <'b':
+    print('OK')
+elif 'a' <'c':
+    print('OKK')
+#if 'a' <'c':
+#    print('OOK')
+'''
+'''
+EP3:
+number = eval(raw_input('>>'))
+if int(number % 2) == 0:
+    print('ou')
+else:
+    print('JI')
+'''
+
+# EP4
+'''
+import os
+print('start')
+res = input('帅不帅?y/n:>>')
+if res == 'y':
+    res2 = input('有没有钱?y/n:>>')
+    if res2 == 'y':
+        res3 = input('有没有老婆?y/n:>>')
+        if res3 == 'n':
+            res4 = input('有没有房?y/n:>>')
+            if res4 == 'y':
+                os.system('say 见见吧')
+            else:
+                os.system('say 没房还结什么婚？睡下水道吗？')
+        else:
+            os.system('say 有老婆还没相什么亲！！')
+    else:
+        os.system('say 考虑一下，正所谓莫欺少年穷')
+else:
+    os.system('say 走开')
+'''
+
+'''
+import random
+random.randint(a,b) return [a,b] random
+value
+random.random()  return [0,1]
+random.randrange(a,b)  return [a,b)
+'''
+'''
+EP5
+import random
+num = int(raw_input('>>'))
+num2 = random.randrange(0,5)
+if num > num2:
+    print('lager')
+elif num < num2:
+    print('small')
+elif num == num2:
+    print('currect')
+'''
+'''
+and :: &&   ---> &
+or  :: ||   ---> |
+not :: qu,fan
+
+'''
+
+
+
+
+
 
 
 
