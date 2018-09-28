@@ -1,3 +1,4 @@
+# _*_ conding:utf8-
 '''
 # 如果要有默认参数，那么一定统一塞到最后面
 def test(name1,name2='Joker',name3='Joker2'):
@@ -40,4 +41,18 @@ def KWargs(**kwargs):
 def argsKw(*args,**kwargs):
     print(args)
     print(kwargs)
+# 全局变量 Mist
+# 使用全局变量的时候，必须要声明全局变量，
+# 否则无法更改全局变量
+Mist = 0
+def test4():
+    global Mist
+    Mist += 10
+    print(Mist)
+
+test4()
+print(Mist)
+globals()   #返回运行开始到现在为止所有的全局变量表
+locals()  # 返回运行开始到现在为止所有的局部变量表
+
 '''
